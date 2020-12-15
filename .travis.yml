@@ -25,13 +25,13 @@ script:
 # 构建完成后会自动更新Github Pages
 deploy:
   provider: pages
-  skip_cleanup: true
+   skip_cleanup: true
   local_dir: public
   token: $GITHUB_TOKEN
   keep_history: true
   on:
     branch: master
-  repo: aresprotocolnz.github.io
-  target_branch: master
+  repo: aresprotocolnz/aresprotocolnz.github.io
+  target_branch: gh-pages
   email: aresprotocolnz@gmail.com
   name: aresprotocolnz
