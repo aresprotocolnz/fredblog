@@ -1,8 +1,7 @@
 dist: bionic
 language: python # 默认是ruby
 python: 3.7
-strategy: git
-root: linux
+
 install:
   # nuo主题需要extended版本的hugo，其他主题可以用最新的普通版本就行
   - wget https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_0.79.0_Linux-64bit.deb
