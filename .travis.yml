@@ -26,8 +26,12 @@ deploy:
   provider: pages
   skip-cleanup: true
   local-dir: public
-  target-branch: master
+  target-branch:
   github-token: $GITHUB_TOKEN
   keep-history: true
   on:
-    branch: src
+    branch: master
+  repo: aresprotocolnz.github.io
+  target_branch: master
+  email: aresprotocolnz@gmail.com
+  name: aresprotocolnz
